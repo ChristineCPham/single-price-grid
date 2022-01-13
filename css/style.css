@@ -44,13 +44,55 @@ h1 {
     color: var(--grayish-blue);
 }
 
+.cta {
+    color: white;
+    background-color: var(--cyan);
+}
 
+.cta h2 {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
 
+.subscription-cost {
+    color: hsl(179, 52%, 78%);
+}
+
+.cost {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.cta-button {
+    color: white;
+    background-color: var(--bright-yellow);
+    border: .1em solid transparent;
+    border-radius: 1vh;
+    box-shadow: -1px 1px .5em .1em hsl(179, 70%, 30%);
+}
+
+.why-us {
+    color: white;
+    background-color: var(--light-cyan);
+}
+
+.why-us h2 {
+    font-size: 1.25rem;
+}
+
+.why-us ul {
+    color:hsl(178, 100%, 94%);
+    list-style: none;
+    padding-left: 0;
+}
 
 .attribution {
-    font-size: 11px; text-align: center;
+    color: var(--cyan);
+    font-size: .8rem; 
+    text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%); 
+    color: var(--bright-yellow); 
 }
