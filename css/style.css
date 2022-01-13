@@ -15,11 +15,14 @@ body {
     background-color: white;
     border: .1em solid transparent;
     border-radius: 1vh;
-    box-shadow: 1px 1px 1vw .1vw hsl(204, 43%, 88%);
+    box-shadow: 1px 1px 2vw .1vw hsl(204, 28%, 65%);
+    width: 80vw;
+    margin: auto;
+    line-height: 2;
 }
 
 .card > div {
-    padding: 1% 5%;
+    padding: .5% 5%;
 }
 
 .hero {
@@ -52,24 +55,35 @@ h1 {
 .cta h2 {
     font-weight: 700;
     font-size: 1.25rem;
+    margin: 5% auto 2.5%;
 }
 
 .subscription-cost {
     color: hsl(179, 52%, 78%);
+    margin: 1% auto 0.5%;
+}
+
+.cta p {
+    line-height: 1;
 }
 
 .cost {
     color: white;
     font-weight: 700;
     font-size: 1.5rem;
+    margin: auto 2% auto auto;
 }
 
 .cta-button {
     color: white;
     background-color: var(--bright-yellow);
+    font-weight: 700;
     border: .1em solid transparent;
     border-radius: 1vh;
     box-shadow: -1px 1px .5em .1em hsl(179, 70%, 30%);
+    width: 100%;
+    padding: 1.25em;
+    margin: 5% auto;
 }
 
 .why-us {
