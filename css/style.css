@@ -16,13 +16,13 @@ body {
     border: .1em solid transparent;
     border-radius: 1vh;
     box-shadow: 1px 1px 2vw .1vw hsl(204, 28%, 65%);
-    width: 80vw;
-    margin: auto;
+    width: 90vw;
+    margin: 5% auto;
     line-height: 2;
 }
 
 .card > div {
-    padding: .5% 5%;
+    padding: 2% 5%;
 }
 
 .hero {
@@ -36,6 +36,7 @@ h1 {
     color: var(--cyan);
     font-weight: 700;
     font-size: 1.5rem;
+    line-height: 1;
 }
 
 .hero-tagline {
@@ -83,7 +84,7 @@ h1 {
     box-shadow: -1px 1px .5em .1em hsl(179, 70%, 30%);
     width: 100%;
     padding: 1.25em;
-    margin: 5% auto;
+    margin: 8% auto;
 }
 
 .why-us {
@@ -93,6 +94,7 @@ h1 {
 
 .why-us h2 {
     font-size: 1.25rem;
+    line-height: 1;
 }
 
 .why-us ul {
@@ -109,4 +111,38 @@ h1 {
 
 .attribution a {
     color: var(--bright-yellow); 
+}
+
+@media screen and (min-width: 500px) {
+    .card {
+        width: 70vw;
+        margin: 5vh auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .card {
+        display: grid;
+        grid: auto auto auto,
+            50% 50%;
+    }
+
+    .card > div {
+        padding: 5% 10%;
+    }
+
+    .hero {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .cta {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    footer {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
 }
