@@ -59,20 +59,27 @@ h1 {
     margin: 5% auto 2.5%;
 }
 
-.subscription-cost {
+.cta .subscription-cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+}
+
+.cta .cost {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.subscription-cost p {
     color: hsl(179, 52%, 78%);
-    margin: 1% auto 0.5%;
 }
 
 .cta p {
     line-height: 1;
-}
-
-.cost {
-    color: white;
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin: auto 2% auto auto;
 }
 
 .cta-button {
