@@ -138,9 +138,12 @@ h1 {
         padding: 5% 10%;
     }
 
-    .hero {
+    div .hero {
         grid-column: 1/3;
         grid-row: 1/2;
+        padding: 2.5% 5%;
+    }
+
     }
 
     .cta {
