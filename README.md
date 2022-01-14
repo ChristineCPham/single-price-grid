@@ -27,8 +27,6 @@ Users should be able to:
 
 ![Desktop Screenshot](/img/screenshot-desktop.jpg)
 
-![Mobile Screenshot](/img/screenshot-mobile.jpg)
-
 ### Links
 
 - Solution URL: [GitHub single-price-grid](https://github.com/ChristineCPham/single-price-grid)
