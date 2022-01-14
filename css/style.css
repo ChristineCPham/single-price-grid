@@ -87,11 +87,14 @@ h1 {
     background-color: var(--bright-yellow);
     font-weight: 700;
     border: .1em solid transparent;
-    border-radius: 1vh;
-    box-shadow: -1px 1px .5em .1em hsl(179, 70%, 30%);
+    border-radius: 1vh; 
     width: 100%;
     padding: 1.25em;
     margin: 8% auto;
+}
+
+.cta-button:hover {
+    box-shadow: -1px 1px .5em .1em hsl(179, 70%, 30%);
 }
 
 .why-us {
